@@ -5,7 +5,7 @@ let c = "Iraaday"
 let d = "Samjho na"
 let e = "Bhikhra"
 
-let songs = ["songs"]
+let songs = new Array()
 
 songs.push(a);
 songs.push(b);

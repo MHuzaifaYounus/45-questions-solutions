@@ -4,7 +4,7 @@ var b = "Shor";
 var c = "Iraaday";
 var d = "Samjho na";
 var e = "Bhikhra";
-var songs = ["songs"];
+var songs = new Array();
 songs.push(a);
 songs.push(b);
 songs.push(c);
