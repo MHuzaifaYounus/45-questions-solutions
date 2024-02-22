@@ -19,15 +19,15 @@
 
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 const places  = ["Turkey","Saudi Arabia","Korea","Antartica", "Paris"];
-let copyplaces = Array.from(places);
+
 // • Print your array in its original order.
 console.log(places)
 // • Print your array in alphabetical order without modifying the actual list.
-console.log(copyplaces.sort())
+console.log(Array.from(places).sort())
 // • Show that your array is still in its original order by printing it.
 console.log(places)
 // • Print your array in reverse alphabetical order without changing the order of the original list.
-console.log(copyplaces.reverse())
+console.log(Array.from(places).sort().reverse())
 // • Show that your array is still in its original order by printing it again.
 console.log(places)
 // • Reverse the order of your list. Print the array to show that its order has changed.
